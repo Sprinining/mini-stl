@@ -1,0 +1,62 @@
+# Visual Studio 相关
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# 编译输出目录
+x64/
+x86/
+Debug/
+Release/
+ipch/
+obj/
+bin/
+
+# 编译生成的中间文件
+*.obj
+*.o
+*.pch
+*.idb
+*.pdb
+*.ilk
+*.log
+*.iobj
+*.ipdb
+*.tlog/
+
+# 生成的库和可执行文件
+*.exe
+*.dll
+*.lib
+*.app
+*.out
+
+# IntelliSense 数据库文件
+*.VC.db
+*.VC.VC.opendb
+
+# 其他缓存文件
+*.cache
+*.sdf
+*.opensdf
+*.vspscc
+*.vssscc
+
+# NuGet 包文件夹（如果用 NuGet）
+packages/
+
+# CMake 生成的文件夹和缓存（如果用 CMake）
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
